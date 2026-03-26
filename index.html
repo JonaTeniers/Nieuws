@@ -3,138 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nieuws247</title>
+  <title>Nieuws247 | Laatste nieuws uit binnen- en buitenland</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="bg-slate-100 text-slate-900 antialiased">
 
-<!-- Topbar -->
-<div class="bg-white text-sm py-2 border-b">
-  <div class="max-w-7xl mx-auto flex justify-between px-4">
-    <div class="space-x-4">
-      <span>Weer</span>
-      <span>TV-Gids</span>
-      <span>Tech</span>
-    </div>
-    <div>Klantenservice</div>
-  </div>
-</div>
-
-<!-- Header -->
-<header class="bg-red-600 text-white">
-  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
-    <img src="img/logo.jpg" class="h-12">
-    <nav class="hidden md:flex space-x-6 font-bold">
-      <a href="#">NIEUWS</a>
-      <a href="#">SPORT</a>
-      <a href="#">SHOWBIZZ</a>
-      <a href="#">TECH</a>
-      <a href="#">CYBER</a>
-    </nav>
-  </div>
-</header>
-
-<!-- Subnav -->
-<div class="bg-white border-b">
-  <div class="max-w-7xl mx-auto px-4 py-2 flex space-x-4 text-sm">
-    <span>Opinie</span>
-    <span>Economie</span>
-    <span>Mobiliteit</span>
-    <span>Gezondheid</span>
-    <span>Wetenschap</span>
-  </div>
-</div>
-
-<!-- Main -->
-<main class="max-w-7xl mx-auto mt-6 px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
-
-<!-- LEFT -->
-<div class="md:col-span-2 space-y-6">
-
-<!-- HERO -->
-<div class="bg-white rounded-xl shadow overflow-hidden">
-  <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" class="w-full h-64 object-cover">
-  <div class="p-4">
-    <h1 class="text-2xl font-bold">Israël bevestigt: Iraanse marinecommandant gedood</h1>
-    <p class="text-sm text-gray-500">Bron: VRT NWS</p>
-    <p class="mt-2 text-gray-700">Israël heeft bevestigd dat een belangrijke militaire leider van Iran is gedood bij een aanval. Het gaat om een commandant die verantwoordelijk was voor controle over een belangrijke vaarroute.</p>
-    <div class="mt-3 bg-blue-50 p-3 rounded">
-      <strong>🧠 Denk na:</strong> Waarom is controle over olie zo belangrijk?
+  <div class="bg-slate-900 text-slate-200 text-xs">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-4">
+        <span>Donderdag 26 maart 2026</span>
+        <span class="hidden sm:inline">Live updates uit binnen- en buitenland</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-white">Nieuwsbrief</a>
+        <a href="#" class="hover:text-white">Podcasts</a>
+        <a href="#" class="hover:text-white">Klantenservice</a>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- GRID ARTICLES -->
-<div class="grid md:grid-cols-2 gap-4">
+  <header class="bg-red-700 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="bg-white text-red-700 font-black px-3 py-1 rounded-sm text-xl leading-none">N247</div>
+        <p class="text-sm text-red-100 hidden md:block">Onafhankelijk nieuws, zonder reclame</p>
+      </div>
+      <nav class="hidden lg:flex items-center gap-6 font-bold tracking-wide">
+        <a href="#" class="hover:text-red-100">NIEUWS</a>
+        <a href="#" class="hover:text-red-100">SPORT</a>
+        <a href="#" class="hover:text-red-100">SHOWBIZZ</a>
+        <a href="#" class="hover:text-red-100">TECH</a>
+        <a href="#" class="hover:text-red-100">REGIO</a>
+      </nav>
+      <button class="bg-white text-red-700 font-bold px-4 py-2 rounded">Abonneren</button>
+    </div>
+  </header>
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
-  <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72" class="w-full h-32 object-cover">
-  <div class="p-4">
-    <h2 class="font-bold">Woede in Rusland door internetproblemen</h2>
-    <p class="text-xs text-gray-500">Bron: HLN</p>
-    <p class="text-sm mt-2">Veel Russen klagen over storingen. De overheid beperkt informatie en protesteren kan gevaarlijk zijn.</p>
+  <div class="bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-3 overflow-x-auto whitespace-nowrap text-sm font-semibold text-slate-700 flex items-center gap-5">
+      <a href="#" class="text-red-700">Voorpagina</a>
+      <a href="#">Opinie</a>
+      <a href="#">Economie</a>
+      <a href="#">Wetenschap</a>
+      <a href="#">Gezondheid</a>
+      <a href="#">Klimaat</a>
+      <a href="#">Mobiliteit</a>
+      <a href="#">Cultuur</a>
+    </div>
   </div>
-</div>
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
-  <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e" class="w-full h-32 object-cover">
-  <div class="p-4">
-    <h2 class="font-bold">Trump wil conflict met Iran stoppen</h2>
-    <p class="text-xs text-gray-500">Bron: HLN</p>
-    <p class="text-sm mt-2">Trump wil een oorlog snel beëindigen omdat het hem afleidt van andere plannen.</p>
+  <div class="bg-yellow-100 border-y border-yellow-300">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center gap-3 text-sm">
+      <span class="bg-red-700 text-white font-bold px-2 py-1 rounded">LIVE</span>
+      <p class="font-medium">Topoverleg in Brussel over energieprijzen • Volg alle updates op deze liveblog</p>
+    </div>
   </div>
-</div>
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
-  <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf" class="w-full h-32 object-cover">
-  <div class="p-4">
-    <h2 class="font-bold">Politieke problemen voor Meloni</h2>
-    <p class="text-xs text-gray-500">Bron: De Morgen</p>
-    <p class="text-sm mt-2">Na een referendum verloor ze steun en stapten regeringsleden op.</p>
-  </div>
-</div>
+  <main class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 xl:grid-cols-12 gap-6">
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
-  <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" class="w-full h-32 object-cover">
-  <div class="p-4">
-    <h2 class="font-bold">Cyberaanvallen nemen toe</h2>
-    <p class="text-xs text-gray-500">Educatief</p>
-    <p class="text-sm mt-2">Experts waarschuwen dat bedrijven vaker doelwit zijn van hackers.</p>
-  </div>
-</div>
+    <section class="xl:col-span-8 space-y-6">
+      <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
+        <div class="grid lg:grid-cols-2">
+          <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80" alt="Stad bij avond" class="w-full h-64 lg:h-full object-cover">
+          <div class="p-6">
+            <p class="text-xs uppercase tracking-wider text-red-700 font-bold mb-3">Buitenland</p>
+            <h1 class="text-3xl font-black leading-tight mb-4">Spanningen op energiemarkt lopen op: Europese ministers zoeken noodplan</h1>
+            <p class="text-slate-700 leading-relaxed">Na een nachtelijk crisisoverleg waarschuwen analisten voor hogere facturen vanaf april. Lidstaten willen sneller samenwerken rond gasreserves en prijsplafonds.</p>
+            <div class="mt-5 flex items-center gap-3 text-sm text-slate-500">
+              <span>Door Redactie Nieuws247</span>
+              <span>•</span>
+              <span>08:42 bijgewerkt</span>
+            </div>
+          </div>
+        </div>
+      </article>
 
-</div>
+      <div class="grid md:grid-cols-2 gap-5">
+        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=1000&q=80" alt="Persconferentie" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-xs uppercase text-slate-500 mb-1">Binnenland</p>
+            <h2 class="font-extrabold text-xl leading-snug">Regering stelt nieuw mobiliteitsplan voor: wat verandert er voor pendelaars?</h2>
+            <p class="text-sm text-slate-600 mt-2">Extra treinen tijdens de spits en lagere tarieven voor jongeren staan centraal.</p>
+          </div>
+        </article>
 
-</div>
+        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?auto=format&fit=crop&w=1000&q=80" alt="Digitale beveiliging" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-xs uppercase text-slate-500 mb-1">Tech</p>
+            <h2 class="font-extrabold text-xl leading-snug">Cyberexperts zien sterke stijging van phishing via QR-codes</h2>
+            <p class="text-sm text-slate-600 mt-2">Banken en politie vragen burgers om links eerst te controleren.</p>
+          </div>
+        </article>
 
-<!-- RIGHT -->
-<aside class="space-y-4">
+        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1470290378698-263fa7ca31ab?auto=format&fit=crop&w=1000&q=80" alt="Stadionsfeer" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-xs uppercase text-slate-500 mb-1">Sport</p>
+            <h2 class="font-extrabold text-xl leading-snug">Bondscoach maakt ruime selectie bekend voor cruciale kwalificatiematch</h2>
+            <p class="text-sm text-slate-600 mt-2">Jonge talenten krijgen hun kans naast ervaren internationals.</p>
+          </div>
+        </article>
 
-<div class="bg-white rounded-xl shadow p-4">
-  <h3 class="font-bold mb-2">NET BINNEN</h3>
-  <ul class="text-sm space-y-2">
-    <li>13:03 Nieuwe cyberdreiging ontdekt</li>
-    <li>12:45 AI wordt steeds slimmer</li>
-    <li>12:10 Politieke spanningen stijgen</li>
-  </ul>
-</div>
+        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80" alt="Aarde vanuit ruimte" class="w-full h-40 object-cover">
+          <div class="p-4">
+            <p class="text-xs uppercase text-slate-500 mb-1">Wetenschap</p>
+            <h2 class="font-extrabold text-xl leading-snug">Nieuwe satelliet brengt luchtvervuiling in Europese steden bijna realtime in kaart</h2>
+            <p class="text-sm text-slate-600 mt-2">Onderzoekers verwachten dat lokale beleidsmakers sneller kunnen ingrijpen.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<div class="bg-white rounded-xl shadow p-4">
-  <h3 class="font-bold mb-2">Meest gelezen</h3>
-  <ul class="text-sm space-y-2">
-    <li>🔥 Israël vs Iran</li>
-    <li>🔥 Internet Rusland</li>
-    <li>🔥 Politiek Italië</li>
-  </ul>
-</div>
+    <aside class="xl:col-span-4 space-y-5">
+      <section class="bg-white border border-slate-200 shadow-sm">
+        <div class="bg-red-700 text-white px-4 py-3 font-black text-2xl">NET BINNEN</div>
+        <ul class="divide-y divide-slate-200">
+          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">13:18</span><a href="#" class="font-semibold hover:underline">Openbaar vervoer test contactloos betalen in vijf steden</a></li>
+          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">12:57</span><a href="#" class="font-semibold hover:underline">Energie-experts waarschuwen voor piekverbruik tijdens koud weekend</a></li>
+          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">12:41</span><a href="#" class="font-semibold hover:underline">Europa scherpt regels voor AI-toepassingen in gezondheidszorg aan</a></li>
+          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">12:16</span><a href="#" class="font-semibold hover:underline">Brussel investeert extra in fietsinfrastructuur rond scholen</a></li>
+          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">11:59</span><a href="#" class="font-semibold hover:underline">Analisten: voedselprijzen stabiliseren, maar risico blijft hoog</a></li>
+        </ul>
+      </section>
 
-</aside>
+      <section class="bg-white border border-slate-200 shadow-sm p-5">
+        <h3 class="font-black text-xl mb-3">Meest gelezen</h3>
+        <ol class="space-y-3 text-sm">
+          <li class="flex gap-3"><span class="text-red-700 font-black text-lg">1</span><a href="#" class="font-semibold hover:underline">Waarom je energiefactuur in 2026 anders wordt berekend</a></li>
+          <li class="flex gap-3"><span class="text-red-700 font-black text-lg">2</span><a href="#" class="font-semibold hover:underline">Praktische gids: zo herken je phishing in 10 seconden</a></li>
+          <li class="flex gap-3"><span class="text-red-700 font-black text-lg">3</span><a href="#" class="font-semibold hover:underline">Liveblog: reacties op het Europese crisisoverleg</a></li>
+        </ol>
+      </section>
 
-</main>
+      <section class="bg-white border border-slate-200 shadow-sm p-5">
+        <h3 class="font-black text-xl mb-2">Nieuwsbrief</h3>
+        <p class="text-sm text-slate-600 mb-4">Ontvang elke ochtend de belangrijkste headlines in je mailbox.</p>
+        <form class="space-y-2">
+          <input type="email" placeholder="E-mailadres" class="w-full border border-slate-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-200">
+          <button type="submit" class="w-full bg-red-700 text-white font-bold py-2 rounded hover:bg-red-800">Inschrijven</button>
+        </form>
+      </section>
+    </aside>
+  </main>
 
-<footer class="bg-gray-900 text-white mt-10 p-6 text-center">
-  © 2026 Nieuws247 - Educatieve demo
-</footer>
+  <footer class="bg-slate-950 text-slate-300 text-sm mt-10">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-wrap items-center justify-between gap-3">
+      <p>© 2026 Nieuws247</p>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-white">Privacy</a>
+        <a href="#" class="hover:text-white">Gebruiksvoorwaarden</a>
+        <a href="#" class="hover:text-white">Contact</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
