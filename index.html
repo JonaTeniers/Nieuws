@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nieuws247 | Laatste nieuws uit binnen- en buitenland</title>
+  <title>Nieuws247 | Nieuws voor leerlingen</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-100 text-slate-900 antialiased">
@@ -12,12 +12,7 @@
     <div class="max-w-7xl mx-auto px-4 py-2 flex flex-wrap items-center justify-between gap-2">
       <div class="flex items-center gap-4">
         <span>Donderdag 26 maart 2026</span>
-        <span class="hidden sm:inline">Live updates uit binnen- en buitenland</span>
-      </div>
-      <div class="flex items-center gap-4">
-        <a href="#" class="hover:text-white">Nieuwsbrief</a>
-        <a href="#" class="hover:text-white">Podcasts</a>
-        <a href="#" class="hover:text-white">Klantenservice</a>
+        <span class="hidden sm:inline">Nieuws in eenvoudige taal voor leerlingen</span>
       </div>
     </div>
   </div>
@@ -25,8 +20,8 @@
   <header class="bg-red-700 text-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between gap-6">
       <div class="flex items-center gap-3">
-        <div class="bg-white text-red-700 font-black px-3 py-1 rounded-sm text-xl leading-none">N247</div>
-        <p class="text-sm text-red-100 hidden md:block">Onafhankelijk nieuws, zonder reclame</p>
+        <a href="index.html" class="bg-white text-red-700 font-black px-3 py-1 rounded-sm text-xl leading-none">N247</a>
+        <p class="text-sm text-red-100 hidden md:block">Eenvoudig uitgelegd, met link naar de echte bron</p>
       </div>
       <nav class="hidden lg:flex items-center gap-6 font-bold tracking-wide">
         <a href="index.html" class="hover:text-red-100">NIEUWS</a>
@@ -34,7 +29,6 @@
         <a href="binnenland.html" class="hover:text-red-100">BINNENLAND</a>
         <a href="media.html" class="hover:text-red-100">MEDIA</a>
       </nav>
-      <button class="bg-white text-red-700 font-bold px-4 py-2 rounded">Abonneren</button>
     </div>
   </header>
 
@@ -47,97 +41,61 @@
     </div>
   </div>
 
-  <div class="bg-yellow-100 border-y border-yellow-300">
-    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center gap-3 text-sm">
-      <span class="bg-red-700 text-white font-bold px-2 py-1 rounded">LIVE</span>
-      <p class="font-medium">Volg de oorlog tussen Israël, Gaza en de regio in de liveblog van VRT NWS.</p>
-    </div>
-  </div>
-
   <main class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 xl:grid-cols-12 gap-6">
-
     <section class="xl:col-span-8 space-y-6">
       <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
         <div class="grid lg:grid-cols-2">
           <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80" alt="Internationaal conflict" class="w-full h-64 lg:h-full object-cover">
           <div class="p-6">
             <a href="buitenland.html" class="text-xs uppercase tracking-wider text-red-700 font-bold mb-3 inline-block">Buitenland</a>
-            <h1 class="text-3xl font-black leading-tight mb-4">
-              <a href="https://www.hln.be/buitenland/oorlog-amerika-iran~ac88fede/?slug_rd=1" target="_blank" rel="noopener noreferrer" class="hover:underline">Oorlog Amerika-Iran: spanningen lopen verder op</a>
-            </h1>
-            <p class="text-slate-700 leading-relaxed">Overzicht van de laatste ontwikkelingen rond het conflict en de internationale gevolgen.</p>
-            <p class="mt-3 text-sm text-slate-500">Bron: <a href="https://www.hln.be/buitenland/oorlog-amerika-iran~ac88fede/?slug_rd=1" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">HLN</a></p>
+            <h1 class="text-3xl font-black leading-tight mb-4"><a href="artikel-oorlog-amerika-iran.html" class="hover:underline">Oorlog Amerika-Iran uitgelegd voor leerlingen</a></h1>
+            <p class="text-slate-700 leading-relaxed">In dit artikel leggen we in eenvoudige woorden uit waarom dit conflict belangrijk is en wat dat kan betekenen voor de wereld.</p>
+            <p class="mt-3 text-sm text-slate-500">Bron: HLN</p>
           </div>
         </div>
       </article>
 
       <div class="grid md:grid-cols-2 gap-5">
-        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1515263487990-61b07816b324?auto=format&fit=crop&w=1000&q=80" alt="Politiezone" class="w-full h-40 object-cover">
-          <div class="p-4">
-            <a href="binnenland.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Binnenland</a>
-            <h2 class="font-extrabold text-xl leading-snug"><a href="https://www.hln.be/antwerpen/verdachte-opgepakt-voor-brandstichting-aan-auto-in-deurne-daders-laten-fles-met-brandstof-achter-op-dak-van-bmw~a08130ad/" target="_blank" rel="noopener noreferrer" class="hover:underline">Verdachte opgepakt voor brandstichting aan auto in Deurne</a></h2>
-            <p class="text-sm text-slate-600 mt-2">Daders lieten volgens het artikel een fles met brandstof achter op het dak van een BMW.</p>
-            <p class="mt-2 text-sm text-slate-500">Bron: <a href="https://www.hln.be/antwerpen/verdachte-opgepakt-voor-brandstichting-aan-auto-in-deurne-daders-laten-fles-met-brandstof-achter-op-dak-van-bmw~a08130ad/" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">HLN</a></p>
-          </div>
+        <article class="bg-white border border-slate-200 shadow-sm p-4">
+          <a href="binnenland.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Binnenland</a>
+          <h2 class="font-extrabold text-xl leading-snug"><a href="artikel-brandstichting-deurne.html" class="hover:underline">Brandstichting in Deurne: wat is er gebeurd?</a></h2>
+          <p class="text-sm text-slate-600 mt-2">Korte uitleg in makkelijke taal, met aandacht voor feiten en veiligheid.</p>
+          <p class="mt-2 text-sm text-slate-500">Bron: HLN</p>
         </article>
 
-        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1000&q=80" alt="Bankkaart en betaalterminal" class="w-full h-40 object-cover">
-          <div class="p-4">
-            <a href="binnenland.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Binnenland</a>
-            <h2 class="font-extrabold text-xl leading-snug"><a href="https://www.hln.be/binnenland/fraude-via-shimming-na-tankbeurt-in-zeker-2-tankstations-slachtoffers-verliezen-tot-700-euro~ab86e1b7d/" target="_blank" rel="noopener noreferrer" class="hover:underline">Fraude via shimming na tankbeurt: slachtoffers verliezen tot 700 euro</a></h2>
-            <p class="text-sm text-slate-600 mt-2">Bij minstens twee tankstations zouden klanten het doelwit zijn geworden van kaartfraude.</p>
-            <p class="mt-2 text-sm text-slate-500">Bron: <a href="https://www.hln.be/binnenland/fraude-via-shimming-na-tankbeurt-in-zeker-2-tankstations-slachtoffers-verliezen-tot-700-euro~ab86e1b7d/" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">HLN</a></p>
-          </div>
+        <article class="bg-white border border-slate-200 shadow-sm p-4">
+          <a href="binnenland.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Binnenland</a>
+          <h2 class="font-extrabold text-xl leading-snug"><a href="artikel-shimming-tankstations.html" class="hover:underline">Fraude na tankbeurt: hoe werkt shimming?</a></h2>
+          <p class="text-sm text-slate-600 mt-2">Je leest wat shimming is en hoe je je bankkaart beter kan beschermen.</p>
+          <p class="mt-2 text-sm text-slate-500">Bron: HLN</p>
         </article>
 
-        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1000&q=80" alt="Schepen op zee" class="w-full h-40 object-cover">
-          <div class="p-4">
-            <a href="buitenland.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Buitenland</a>
-            <h2 class="font-extrabold text-xl leading-snug"><a href="https://www.vrt.be/vrtnws/nl/liveblog/israel-bevestigt-marinecommandant-en-verantwoordelijke-blokkad~1774500481071/" target="_blank" rel="noopener noreferrer" class="hover:underline">Liveblog: Israël bevestigt dood marinecommandant</a></h2>
-            <p class="text-sm text-slate-600 mt-2">Doorlopende updates over de situatie in het Midden-Oosten.</p>
-            <p class="mt-2 text-sm text-slate-500">Bron: <a href="https://www.vrt.be/vrtnws/nl/liveblog/israel-bevestigt-marinecommandant-en-verantwoordelijke-blokkad~1774500481071/" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">VRT NWS</a></p>
-          </div>
+        <article class="bg-white border border-slate-200 shadow-sm p-4">
+          <a href="buitenland.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Buitenland</a>
+          <h2 class="font-extrabold text-xl leading-snug"><a href="artikel-liveblog-israel.html" class="hover:underline">Liveblog Midden-Oosten eenvoudig samengevat</a></h2>
+          <p class="text-sm text-slate-600 mt-2">De belangrijkste updates uit de liveblog, duidelijk en kort uitgelegd.</p>
+          <p class="mt-2 text-sm text-slate-500">Bron: VRT NWS</p>
         </article>
 
-        <article class="bg-white border border-slate-200 shadow-sm overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?auto=format&fit=crop&w=1000&q=80" alt="Televisie en streaming" class="w-full h-40 object-cover">
-          <div class="p-4">
-            <a href="media.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Media</a>
-            <h2 class="font-extrabold text-xl leading-snug"><a href="https://www.humo.be/tv/doe-de-penetratietest-met-hacked-op-streamz-ergens-gehackt-overal-gehackt~b983bc2d/?referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener noreferrer" class="hover:underline">Doe de penetratietest met Hacked op Streamz</a></h2>
-            <p class="text-sm text-slate-600 mt-2">Recensie en duiding bij de tv-reeks rond cyberveiligheid.</p>
-            <p class="mt-2 text-sm text-slate-500">Bron: <a href="https://www.humo.be/tv/doe-de-penetratietest-met-hacked-op-streamz-ergens-gehackt-overal-gehackt~b983bc2d/?referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener noreferrer" class="text-red-700 hover:underline">Humo</a></p>
-          </div>
+        <article class="bg-white border border-slate-200 shadow-sm p-4">
+          <a href="media.html" class="text-xs uppercase text-slate-500 mb-1 inline-block">Media</a>
+          <h2 class="font-extrabold text-xl leading-snug"><a href="artikel-hacked-streamz.html" class="hover:underline">Hacked op Streamz: waarom dit programma relevant is</a></h2>
+          <p class="text-sm text-slate-600 mt-2">Eenvoudige uitleg over cyberveiligheid en waarom jongeren dit best kennen.</p>
+          <p class="mt-2 text-sm text-slate-500">Bron: Humo</p>
         </article>
       </div>
     </section>
 
     <aside class="xl:col-span-4 space-y-5">
       <section class="bg-white border border-slate-200 shadow-sm">
-        <div class="bg-red-700 text-white px-4 py-3 font-black text-2xl">NET BINNEN</div>
+        <div class="bg-red-700 text-white px-4 py-3 font-black text-2xl">Meer nieuws voor leerlingen</div>
         <ul class="divide-y divide-slate-200">
-          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">13:18</span><a href="https://www.vrt.be/vrtnws/nl/2026/03/26/vandalen-voordeuren-instampen-linkeroever-antwerpen-city-pirates/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Vandalen stampen voordeuren in op Linkeroever</a><p class="text-xs text-slate-500 mt-1">Bron: VRT NWS</p></li>
-          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">12:57</span><a href="https://www.knack.be/nieuws/belgie/lisa-was-een-van-de-21428-daklozen-in-vlaanderen-als-jonge-vrouw-ben-je-op-straat-nooit-veilig/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Lisa was een van de 21.428 daklozen in Vlaanderen</a><p class="text-xs text-slate-500 mt-1">Bron: Knack</p></li>
-          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">12:41</span><a href="https://www.hln.be/binnenland/fraude-via-shimming-na-tankbeurt-in-zeker-2-tankstations-slachtoffers-verliezen-tot-700-euro~ab86e1b7d/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Fraude via shimming na tankbeurt in zeker 2 tankstations</a><p class="text-xs text-slate-500 mt-1">Bron: HLN</p></li>
-          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">12:16</span><a href="https://www.hln.be/antwerpen/verdachte-opgepakt-voor-brandstichting-aan-auto-in-deurne-daders-laten-fles-met-brandstof-achter-op-dak-van-bmw~a08130ad/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Verdachte opgepakt voor brandstichting aan auto in Deurne</a><p class="text-xs text-slate-500 mt-1">Bron: HLN</p></li>
-          <li class="px-4 py-3"><span class="text-red-700 font-bold mr-2">11:59</span><a href="https://www.vrt.be/vrtnws/nl/liveblog/israel-bevestigt-marinecommandant-en-verantwoordelijke-blokkad~1774500481071/" target="_blank" rel="noopener noreferrer" class="font-semibold hover:underline">Liveblog: Israël bevestigt dood marinecommandant</a><p class="text-xs text-slate-500 mt-1">Bron: VRT NWS</p></li>
+          <li class="px-4 py-3"><a href="artikel-vandalen-linkeroever.html" class="font-semibold hover:underline">Vandalisme op Linkeroever: wat weten we al?</a><p class="text-xs text-slate-500 mt-1">Bron: VRT NWS</p></li>
+          <li class="px-4 py-3"><a href="artikel-dakloosheid-lisa.html" class="font-semibold hover:underline">Dakloosheid in Vlaanderen uitgelegd aan leerlingen</a><p class="text-xs text-slate-500 mt-1">Bron: Knack</p></li>
         </ul>
       </section>
     </aside>
   </main>
-
-  <footer class="bg-slate-950 text-slate-300 text-sm mt-10">
-    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-wrap items-center justify-between gap-3">
-      <p>© 2026 Nieuws247</p>
-      <div class="flex items-center gap-4">
-        <a href="#" class="hover:text-white">Privacy</a>
-        <a href="#" class="hover:text-white">Gebruiksvoorwaarden</a>
-        <a href="#" class="hover:text-white">Contact</a>
-      </div>
-    </div>
-  </footer>
 
 </body>
 </html>
