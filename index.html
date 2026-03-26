@@ -8,69 +8,133 @@
 </head>
 <body class="bg-gray-100 font-sans">
 
-  <!-- Header -->
-  <header class="bg-red-600 text-white p-4">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <img src="logo.jpg" alt="Nieuws247 logo" class="h-12">
-      <nav class="space-x-4">
-        <a href="#" class="hover:underline">Home</a>
-        <a href="#" class="hover:underline">Binnenland</a>
-        <a href="#" class="hover:underline">Buitenland</a>
-        <a href="#" class="hover:underline">Sport</a>
-        <a href="#" class="hover:underline">Showbizz</a>
-      </nav>
+<!-- Topbar -->
+<div class="bg-white text-sm py-2 border-b">
+  <div class="max-w-7xl mx-auto flex justify-between px-4">
+    <div class="space-x-4">
+      <span>Weer</span>
+      <span>TV-Gids</span>
+      <span>Tech</span>
     </div>
-  </header>
+    <div>Klantenservice</div>
+  </div>
+</div>
 
-  <!-- Breaking news -->
-  <section class="bg-yellow-300 text-black p-2 text-center font-semibold">
-    BREAKING: Dit is een voorbeeld van een belangrijk nieuwsbericht!
-  </section>
+<!-- Header -->
+<header class="bg-red-600 text-white">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
+    <img src="img/logo.jpg" class="h-12">
+    <nav class="hidden md:flex space-x-6 font-bold">
+      <a href="#">NIEUWS</a>
+      <a href="#">SPORT</a>
+      <a href="#">SHOWBIZZ</a>
+      <a href="#">TECH</a>
+      <a href="#">CYBER</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- Main content -->
-  <main class="max-w-7xl mx-auto mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+<!-- Subnav -->
+<div class="bg-white border-b">
+  <div class="max-w-7xl mx-auto px-4 py-2 flex space-x-4 text-sm">
+    <span>Opinie</span>
+    <span>Economie</span>
+    <span>Mobiliteit</span>
+    <span>Gezondheid</span>
+    <span>Wetenschap</span>
+  </div>
+</div>
 
-    <!-- Left column (main news) -->
-    <div class="md:col-span-2 space-y-6">
-      <article class="bg-white rounded-2xl shadow p-4">
-        <img src="https://via.placeholder.com/800x400" class="rounded-xl mb-4">
-        <h2 class="text-2xl font-bold mb-2">Groot nieuws: iets belangrijks is gebeurd</h2>
-        <p class="text-gray-700">Dit is een korte samenvatting van het nieuwsartikel. Hier komt de inhoud van het artikel te staan.</p>
-      </article>
+<!-- Main -->
+<main class="max-w-7xl mx-auto mt-6 px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
 
-      <article class="bg-white rounded-2xl shadow p-4">
-        <h3 class="text-xl font-semibold mb-2">Nog een belangrijk nieuwsitem</h3>
-        <p class="text-gray-700">Meer tekst over een ander nieuwsitem. Kort en duidelijk zoals op HLN.</p>
-      </article>
+<!-- LEFT -->
+<div class="md:col-span-2 space-y-6">
+
+<!-- HERO -->
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" class="w-full h-64 object-cover">
+  <div class="p-4">
+    <h1 class="text-2xl font-bold">Israël bevestigt: Iraanse marinecommandant gedood</h1>
+    <p class="text-sm text-gray-500">Bron: VRT NWS</p>
+    <p class="mt-2 text-gray-700">Israël heeft bevestigd dat een belangrijke militaire leider van Iran is gedood bij een aanval. Het gaat om een commandant die verantwoordelijk was voor controle over een belangrijke vaarroute.</p>
+    <div class="mt-3 bg-blue-50 p-3 rounded">
+      <strong>🧠 Denk na:</strong> Waarom is controle over olie zo belangrijk?
     </div>
+  </div>
+</div>
 
-    <!-- Right column (sidebar) -->
-    <aside class="space-y-4">
-      <div class="bg-white rounded-2xl shadow p-4">
-        <h3 class="font-bold mb-2">Meest gelezen</h3>
-        <ul class="space-y-2 text-sm">
-          <li>🔥 Artikel 1</li>
-          <li>🔥 Artikel 2</li>
-          <li>🔥 Artikel 3</li>
-        </ul>
-      </div>
+<!-- GRID ARTICLES -->
+<div class="grid md:grid-cols-2 gap-4">
 
-      <div class="bg-white rounded-2xl shadow p-4">
-        <h3 class="font-bold mb-2">Laatste nieuws</h3>
-        <ul class="space-y-2 text-sm">
-          <li>🕒 Nieuws update 1</li>
-          <li>🕒 Nieuws update 2</li>
-          <li>🕒 Nieuws update 3</li>
-        </ul>
-      </div>
-    </aside>
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72" class="w-full h-32 object-cover">
+  <div class="p-4">
+    <h2 class="font-bold">Woede in Rusland door internetproblemen</h2>
+    <p class="text-xs text-gray-500">Bron: HLN</p>
+    <p class="text-sm mt-2">Veel Russen klagen over storingen. De overheid beperkt informatie en protesteren kan gevaarlijk zijn.</p>
+  </div>
+</div>
 
-  </main>
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e" class="w-full h-32 object-cover">
+  <div class="p-4">
+    <h2 class="font-bold">Trump wil conflict met Iran stoppen</h2>
+    <p class="text-xs text-gray-500">Bron: HLN</p>
+    <p class="text-sm mt-2">Trump wil een oorlog snel beëindigen omdat het hem afleidt van andere plannen.</p>
+  </div>
+</div>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-white mt-10 p-6 text-center">
-    © 2026 Nieuws247 - Alle rechten voorbehouden
-  </footer>
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf" class="w-full h-32 object-cover">
+  <div class="p-4">
+    <h2 class="font-bold">Politieke problemen voor Meloni</h2>
+    <p class="text-xs text-gray-500">Bron: De Morgen</p>
+    <p class="text-sm mt-2">Na een referendum verloor ze steun en stapten regeringsleden op.</p>
+  </div>
+</div>
+
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" class="w-full h-32 object-cover">
+  <div class="p-4">
+    <h2 class="font-bold">Cyberaanvallen nemen toe</h2>
+    <p class="text-xs text-gray-500">Educatief</p>
+    <p class="text-sm mt-2">Experts waarschuwen dat bedrijven vaker doelwit zijn van hackers.</p>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+<aside class="space-y-4">
+
+<div class="bg-white rounded-xl shadow p-4">
+  <h3 class="font-bold mb-2">NET BINNEN</h3>
+  <ul class="text-sm space-y-2">
+    <li>13:03 Nieuwe cyberdreiging ontdekt</li>
+    <li>12:45 AI wordt steeds slimmer</li>
+    <li>12:10 Politieke spanningen stijgen</li>
+  </ul>
+</div>
+
+<div class="bg-white rounded-xl shadow p-4">
+  <h3 class="font-bold mb-2">Meest gelezen</h3>
+  <ul class="text-sm space-y-2">
+    <li>🔥 Israël vs Iran</li>
+    <li>🔥 Internet Rusland</li>
+    <li>🔥 Politiek Italië</li>
+  </ul>
+</div>
+
+</aside>
+
+</main>
+
+<footer class="bg-gray-900 text-white mt-10 p-6 text-center">
+  © 2026 Nieuws247 - Educatieve demo
+</footer>
 
 </body>
 </html>
